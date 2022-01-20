@@ -2,18 +2,11 @@ import { Component, useEffect, useState } from 'react';
 
 import Header from '../../components/Header';
 import { api } from '../../services/api';
-import FoodCard from '../../components/Food';
+import { Food as FoodCard } from '../../components/Food';
 import ModalAddFood from '../../components/ModalAddFood';
 import ModalEditFood from '../../components/ModalEditFood';
 import { FoodsContainer } from './styles';
-
-interface Food {
-  id: number;
-  description: string;
-  price: number;
-  available: boolean;
-  image: string;
-}
+import { Food } from '../../types/Food';
 
 const Dashboard = () => {
   const [modalOpen, setModalOpen] = useState(false);
