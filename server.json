@@ -15,6 +15,14 @@
       "price": "25,90",
       "available": false,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "image": "https://www.gstatic.com/devrel-devsite/prod/vd66275adb6a18222c17fbda979bde6b3bf2a675531cc7e54b05dbb69d107b056/cloud/images/cloud-logo.svg",
+      "name": "Google Cloud Platform",
+      "price": "VERY EXPENSIVE",
+      "description": "Nicholas é gente boa",
+      "available": true,
+      "id": 4
     }
   ]
 }
